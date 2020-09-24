@@ -1,0 +1,105 @@
+<font>
+<info face="121" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 />
+<common lineHeight=121 base=121 scaleW=808 scaleH=808 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0 />
+<page id=0 file="retro-gaming-font-export.png"/>
+<chars count=96>
+<char id=33 x=453 y=104 width=89 height=103 xoffset=0 yoffset=-132 xadvance=84 page=0 chnl=0 letter="!"/>
+<char id=34 x=0 y=628 width=90 height=103 xoffset=57 yoffset=-132 xadvance=85 page=0 chnl=0 letter='"'/>
+<char id=35 x=363 y=210 width=89 height=103 xoffset=80 yoffset=-132 xadvance=84 page=0 chnl=0 letter="#"/>
+<char id=36 x=91 y=104 width=90 height=103 xoffset=45 yoffset=-132 xadvance=85 page=0 chnl=0 letter="$"/>
+<char id=37 x=452 y=696 width=89 height=103 xoffset=46 yoffset=-132 xadvance=84 page=0 chnl=0 letter="%"/>
+<char id=38 x=91 y=662 width=90 height=103 xoffset=45 yoffset=-132 xadvance=85 page=0 chnl=0 letter="&"/>
+<char id=39 x=4 y=804 width=1 height=1 xoffset=-2 yoffset=-309 xadvance=-4 page=0 chnl=0 letter="'"/>
+<char id=40 x=0 y=802 width=1 height=1 xoffset=-2 yoffset=-309 xadvance=-4 page=0 chnl=0 letter="("/>
+<char id=41 x=756 y=417 width=27 height=92 xoffset=0 yoffset=-132 xadvance=22 page=0 chnl=0 letter=")"/>
+<char id=42 x=622 y=140 width=72 height=103 xoffset=0 yoffset=-132 xadvance=67 page=0 chnl=0 letter="*"/>
+<char id=43 x=694 y=476 width=61 height=103 xoffset=0 yoffset=-132 xadvance=56 page=0 chnl=0 letter="+"/>
+<char id=44 x=752 y=104 width=39 height=103 xoffset=0 yoffset=-132 xadvance=34 page=0 chnl=0 letter=","/>
+<char id=45 x=694 y=580 width=56 height=103 xoffset=0 yoffset=-132 xadvance=51 page=0 chnl=0 letter="-"/>
+<char id=46 x=695 y=70 width=56 height=103 xoffset=28 yoffset=-132 xadvance=51 page=0 chnl=0 letter="."/>
+<char id=47 x=452 y=488 width=89 height=103 xoffset=52 yoffset=-132 xadvance=84 page=0 chnl=0 letter="/"/>
+<char id=48 x=751 y=580 width=56 height=103 xoffset=51 yoffset=-132 xadvance=51 page=0 chnl=0 letter="0"/>
+<char id=49 x=362 y=638 width=89 height=47 xoffset=18 yoffset=-132 xadvance=84 page=0 chnl=0 letter="1"/>
+<char id=50 x=91 y=766 width=67 height=24 xoffset=51 yoffset=-53 xadvance=62 page=0 chnl=0 letter="2"/>
+<char id=51 x=695 y=174 width=55 height=47 xoffset=29 yoffset=-132 xadvance=50 page=0 chnl=0 letter="3"/>
+<char id=52 x=453 y=383 width=84 height=69 xoffset=0 yoffset=-98 xadvance=79 page=0 chnl=0 letter="4"/>
+<char id=53 x=542 y=627 width=84 height=103 xoffset=0 yoffset=-132 xadvance=79 page=0 chnl=0 letter="5"/>
+<char id=54 x=542 y=557 width=84 height=69 xoffset=0 yoffset=-98 xadvance=79 page=0 chnl=0 letter="6"/>
+<char id=55 x=542 y=453 width=84 height=103 xoffset=0 yoffset=-132 xadvance=79 page=0 chnl=0 letter="7"/>
+<char id=56 x=542 y=731 width=84 height=69 xoffset=0 yoffset=-98 xadvance=79 page=0 chnl=0 letter="8"/>
+<char id=57 x=690 y=244 width=61 height=103 xoffset=0 yoffset=-132 xadvance=56 page=0 chnl=0 letter="9"/>
+<char id=58 x=752 y=312 width=32 height=104 xoffset=0 yoffset=-98 xadvance=27 page=0 chnl=0 letter=":"/>
+<char id=59 x=362 y=686 width=89 height=103 xoffset=40 yoffset=-132 xadvance=84 page=0 chnl=0 letter=";"/>
+<char id=60 x=0 y=804 width=1 height=1 xoffset=-2 yoffset=-309 xadvance=-4 page=0 chnl=0 letter="<"/>
+<char id=61 x=627 y=360 width=67 height=115 xoffset=51 yoffset=-132 xadvance=62 page=0 chnl=0 letter="="/>
+<char id=62 x=543 y=105 width=78 height=103 xoffset=52 yoffset=-132 xadvance=73 page=0 chnl=0 letter=">"/>
+<char id=63 x=751 y=684 width=44 height=103 xoffset=63 yoffset=-132 xadvance=39 page=0 chnl=0 letter="?"/>
+<char id=64 x=363 y=70 width=89 height=69 xoffset=17 yoffset=-98 xadvance=84 page=0 chnl=0 letter="@"/>
+<char id=65 x=0 y=313 width=90 height=69 xoffset=17 yoffset=-98 xadvance=85 page=0 chnl=0 letter="A"/>
+<char id=66 x=363 y=140 width=89 height=69 xoffset=18 yoffset=-98 xadvance=84 page=0 chnl=0 letter="B"/>
+<char id=67 x=0 y=453 width=90 height=104 xoffset=17 yoffset=-98 xadvance=85 page=0 chnl=0 letter="C"/>
+<char id=68 x=453 y=278 width=89 height=104 xoffset=18 yoffset=-98 xadvance=84 page=0 chnl=0 letter="D"/>
+<char id=69 x=543 y=209 width=78 height=69 xoffset=17 yoffset=-98 xadvance=73 page=0 chnl=0 letter="E"/>
+<char id=70 x=91 y=208 width=90 height=69 xoffset=6 yoffset=-98 xadvance=85 page=0 chnl=0 letter="F"/>
+<char id=71 x=627 y=476 width=66 height=103 xoffset=6 yoffset=-132 xadvance=61 page=0 chnl=0 letter="G"/>
+<char id=72 x=622 y=0 width=73 height=69 xoffset=0 yoffset=-98 xadvance=68 page=0 chnl=0 letter="H"/>
+<char id=73 x=622 y=70 width=72 height=69 xoffset=0 yoffset=-98 xadvance=67 page=0 chnl=0 letter="I"/>
+<char id=74 x=273 y=534 width=84 height=69 xoffset=0 yoffset=-98 xadvance=79 page=0 chnl=0 letter="J"/>
+<char id=75 x=538 y=383 width=84 height=69 xoffset=0 yoffset=-98 xadvance=79 page=0 chnl=0 letter="K"/>
+<char id=76 x=543 y=0 width=78 height=104 xoffset=0 yoffset=-98 xadvance=73 page=0 chnl=0 letter="L"/>
+<char id=77 x=363 y=418 width=89 height=69 xoffset=6 yoffset=-98 xadvance=84 page=0 chnl=0 letter="M"/>
+<char id=78 x=0 y=806 width=1 height=1 xoffset=-2 yoffset=-309 xadvance=-4 page=0 chnl=0 letter="N"/>
+<char id=79 x=273 y=430 width=89 height=103 xoffset=0 yoffset=-132 xadvance=84 page=0 chnl=0 letter="O"/>
+<char id=80 x=0 y=104 width=90 height=103 xoffset=57 yoffset=-132 xadvance=85 page=0 chnl=0 letter="P"/>
+<char id=81 x=453 y=0 width=89 height=103 xoffset=80 yoffset=-132 xadvance=84 page=0 chnl=0 letter="Q"/>
+<char id=82 x=182 y=278 width=90 height=103 xoffset=45 yoffset=-132 xadvance=85 page=0 chnl=0 letter="R"/>
+<char id=83 x=452 y=592 width=89 height=103 xoffset=46 yoffset=-132 xadvance=84 page=0 chnl=0 letter="S"/>
+<char id=84 x=91 y=558 width=90 height=103 xoffset=45 yoffset=-132 xadvance=85 page=0 chnl=0 letter="T"/>
+<char id=85 x=2 y=804 width=1 height=1 xoffset=-2 yoffset=-309 xadvance=-4 page=0 chnl=0 letter="U"/>
+<char id=86 x=363 y=314 width=89 height=103 xoffset=0 yoffset=-132 xadvance=84 page=0 chnl=0 letter="V"/>
+<char id=87 x=2 y=806 width=1 height=1 xoffset=-2 yoffset=-309 xadvance=-4 page=0 chnl=0 letter="W"/>
+<char id=88 x=182 y=382 width=90 height=103 xoffset=0 yoffset=-132 xadvance=85 page=0 chnl=0 letter="X"/>
+<char id=89 x=0 y=0 width=100 height=103 xoffset=0 yoffset=-132 xadvance=95 page=0 chnl=0 letter="Y"/>
+<char id=90 x=182 y=174 width=90 height=103 xoffset=0 yoffset=-132 xadvance=85 page=0 chnl=0 letter="Z"/>
+<char id=91 x=101 y=0 width=90 height=103 xoffset=0 yoffset=-132 xadvance=85 page=0 chnl=0 letter="["/>
+<char id=92 x=362 y=534 width=89 height=103 xoffset=0 yoffset=-132 xadvance=84 page=0 chnl=0 letter="\"/>
+<char id=93 x=694 y=684 width=56 height=103 xoffset=28 yoffset=-132 xadvance=51 page=0 chnl=0 letter="]"/>
+<char id=94 x=273 y=326 width=89 height=103 xoffset=52 yoffset=-132 xadvance=84 page=0 chnl=0 letter="^"/>
+<char id=95 x=695 y=348 width=56 height=103 xoffset=51 yoffset=-132 xadvance=51 page=0 chnl=0 letter="_"/>
+<char id=96 x=273 y=174 width=89 height=47 xoffset=18 yoffset=-132 xadvance=84 page=0 chnl=0 letter="`"/>
+<char id=97 x=192 y=70 width=67 height=24 xoffset=51 yoffset=-53 xadvance=62 page=0 chnl=0 letter="a"/>
+<char id=98 x=696 y=0 width=55 height=47 xoffset=29 yoffset=-132 xadvance=50 page=0 chnl=0 letter="b"/>
+<char id=99 x=182 y=486 width=90 height=69 xoffset=0 yoffset=-98 xadvance=85 page=0 chnl=0 letter="c"/>
+<char id=100 x=272 y=626 width=89 height=103 xoffset=0 yoffset=-132 xadvance=84 page=0 chnl=0 letter="d"/>
+<char id=101 x=182 y=556 width=90 height=69 xoffset=0 yoffset=-98 xadvance=85 page=0 chnl=0 letter="e"/>
+<char id=102 x=273 y=222 width=89 height=103 xoffset=0 yoffset=-132 xadvance=84 page=0 chnl=0 letter="f"/>
+<char id=103 x=182 y=104 width=90 height=69 xoffset=0 yoffset=-98 xadvance=85 page=0 chnl=0 letter="g"/>
+<char id=104 x=627 y=684 width=66 height=103 xoffset=0 yoffset=-132 xadvance=61 page=0 chnl=0 letter="h"/>
+<char id=105 x=91 y=383 width=90 height=104 xoffset=0 yoffset=-98 xadvance=85 page=0 chnl=0 letter="i"/>
+<char id=106 x=273 y=70 width=89 height=103 xoffset=40 yoffset=-132 xadvance=84 page=0 chnl=0 letter="j"/>
+<char id=107 x=2 y=802 width=1 height=1 xoffset=-2 yoffset=-309 xadvance=-4 page=0 chnl=0 letter="k"/>
+<char id=108 x=752 y=208 width=33 height=103 xoffset=0 yoffset=-132 xadvance=28 page=0 chnl=0 letter="l"/>
+<char id=109 x=622 y=244 width=67 height=115 xoffset=51 yoffset=-132 xadvance=62 page=0 chnl=0 letter="m"/>
+<char id=110 x=543 y=279 width=78 height=103 xoffset=52 yoffset=-132 xadvance=73 page=0 chnl=0 letter="n"/>
+<char id=111 x=752 y=0 width=44 height=103 xoffset=63 yoffset=-132 xadvance=39 page=0 chnl=0 letter="o"/>
+<char id=112 x=272 y=730 width=89 height=69 xoffset=17 yoffset=-98 xadvance=84 page=0 chnl=0 letter="p"/>
+<char id=113 x=91 y=488 width=90 height=69 xoffset=17 yoffset=-98 xadvance=85 page=0 chnl=0 letter="q"/>
+<char id=114 x=182 y=731 width=89 height=69 xoffset=18 yoffset=-98 xadvance=84 page=0 chnl=0 letter="r"/>
+<char id=115 x=91 y=278 width=90 height=104 xoffset=17 yoffset=-98 xadvance=85 page=0 chnl=0 letter="s"/>
+<char id=116 x=182 y=626 width=89 height=104 xoffset=18 yoffset=-98 xadvance=84 page=0 chnl=0 letter="t"/>
+<char id=117 x=372 y=0 width=78 height=69 xoffset=17 yoffset=-98 xadvance=73 page=0 chnl=0 letter="u"/>
+<char id=118 x=0 y=732 width=90 height=69 xoffset=6 yoffset=-98 xadvance=85 page=0 chnl=0 letter="v"/>
+<char id=119 x=627 y=580 width=66 height=103 xoffset=6 yoffset=-132 xadvance=61 page=0 chnl=0 letter="w"/>
+<char id=120 x=0 y=558 width=90 height=69 xoffset=0 yoffset=-98 xadvance=85 page=0 chnl=0 letter="x"/>
+<char id=121 x=192 y=0 width=89 height=69 xoffset=0 yoffset=-98 xadvance=84 page=0 chnl=0 letter="y"/>
+<char id=122 x=0 y=383 width=90 height=69 xoffset=0 yoffset=-98 xadvance=85 page=0 chnl=0 letter="z"/>
+<char id=123 x=282 y=0 width=89 height=69 xoffset=0 yoffset=-98 xadvance=84 page=0 chnl=0 letter="{"/>
+<char id=124 x=0 y=208 width=90 height=104 xoffset=0 yoffset=-98 xadvance=85 page=0 chnl=0 letter="|"/>
+<char id=125 x=453 y=208 width=89 height=69 xoffset=6 yoffset=-98 xadvance=84 page=0 chnl=0 letter="}"/>
+<char id=126 x=4 y=802 width=1 height=1 xoffset=-2 yoffset=-309 xadvance=-4 page=0 chnl=0 letter="~"/>
+<char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=50 page=0 chnl=0 letter=" "/>
+<char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=400 page=0 chnl=0 letter="	"/>
+</chars>
+
+<kernings count=0/>
+</font>
