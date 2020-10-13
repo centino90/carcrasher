@@ -1,2 +1,0 @@
-# carcrasher
-kiss my ass
