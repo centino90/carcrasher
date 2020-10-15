@@ -4,8 +4,12 @@ ZenvaRunner.Boot = function() {};
 
 ZenvaRunner.Boot.prototype = {
     preload: function() {
-        this.load.image('logo', 'assets/images/logo.png');
         this.load.image('preloadbar', 'assets/images/loadbar.png');
+        this.load.spritesheet('carcrasher', 'assets/images/carlogo.png',763, 312, 5);   
+        this.load.spritesheet('tap', 'assets/images/taptoplay.png',300, 200, 5);   
+        this.load.image('mountain', 'assets/images/mountain.png');
+        this.load.audio('boostSoundtrack', 'assets/audio/booster-soundtrack.mp3');
+        
     },
     create: function() {
         this.game.stage.backgroundColor = '#fff';
@@ -15,7 +19,7 @@ ZenvaRunner.Boot.prototype = {
 
          if (this.game.device.desktop) {
             // if you have any desktop specific settings, they can go in here
-            this.scale.pageAlignHorizontally = true;
+            this.scale.pageAlignVertically = true;
          } else {
             //  Same goes for mobile settings
             //  in this case we're saying "scale the game, no lower than 480x260 and no higher than 1024x768"
@@ -25,8 +29,8 @@ ZenvaRunner.Boot.prototype = {
             this.scale.maxWidth = 2048;
             this.scale.maxHeight = 1536;
             this.scale.forceLandscape = true;
-            this.scale.pageAlignHorizontally = true;
-            this.scale.setScreenSize(true);
+            this.scale.pageAlignVertically = true;
+            // this.scale.setScreenSize(true);
          }
 
         //  by this point preloader assets have loaded to the cache, we've set the game settings
