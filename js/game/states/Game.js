@@ -49,7 +49,7 @@ ZenvaRunner.Game.prototype = {
         this.sideroad = this.game.add.tileSprite(this.game.width/2 - this.ground.width * 1.15,0,this.ground.width*.65,this.game.height,'sideroad');
         this.sideroad.autoScroll(0,350); //this will scroll the backround forward creating the illusion of the player moving forward
         
-        this.grass2 = this.game.add.tileSprite(this.game.width/2 + this.ground.width * 1.5,0,this.ground.width*2,this.game.height,'grass');
+        this.grass2 = this.game.add.tileSprite(this.game.width/2 + this.ground.width * 1.5,0,this.ground.width*2,this.game.height,'sea');
         this.grass2.autoScroll(0,350); //this will move the backround to the left
         this.grass2.anchor.setTo(.5,0);
 
@@ -59,7 +59,7 @@ ZenvaRunner.Game.prototype = {
         this.beachside.animations.play('fly',1,true); //this line will play our animation in 8fps and will loop th animaton(true)
 
         // Adding the player
-        this.player = this.add.sprite(this.game.width/2,this.game.height,'player');
+        this.player = this.add.sprite(this.game.width/2,this.game.height,this.game.global.carKey);
         this.player.scale.setTo(.5);
 
         this.player.animations.add('fly', [0,1,2,0,1,2]); //[0,1,2,3] are image frames found in our asset player,
@@ -117,8 +117,8 @@ ZenvaRunner.Game.prototype = {
          this.timeInSeconds = 60;
          this.timeText = this.game.add.bitmapText(this.game.world.centerX, 6,'minecraftia','1:00',24);  //  this.timeText = this.game.add.text(this.game.world.centerX, this.game.world.centerY, "0:00",{font: '15px Arial', fill: '#FFFFFF', align: 'center'});
          this.timeText.anchor.set(0.5, 0);
-         this.timer = this.game.time.events.loop(Phaser.Timer.SECOND, this.updateTimer, this);
-
+         this.timer = this.game.time.events.repeat(Phaser.Timer.SECOND, this.timeInSeconds, this.updateTimer, this);
+         
          // set elapsed time (intangible and hidden)
          this.elapsedTime = 0;
          this.elapsedTimeTimer = this.game.time.events.loop(Phaser.Timer.SECOND, this.incrementElapsedTime, this);
@@ -147,7 +147,14 @@ ZenvaRunner.Game.prototype = {
         this.useBooster = this.input.keyboard.addKey(Phaser.Keyboard.G);
     },
     update: function() {
-      
+        this.exp = ''
+        if(this.game.global.carKey == 'black') {
+            this.exp = 'fadeBlack';
+        }
+        else if(this.game.global.carKey == 'taxi') {
+            this.exp = 'fadeTaxi';
+        }
+        
         //lost case
         if (this.healthPoint <= 0 && !this.hasLost || this.timeInSeconds == 0 && !this.hasLost) {
             this.healthPoint = 100; // revert hp
@@ -155,10 +162,11 @@ ZenvaRunner.Game.prototype = {
             this.hasLost = true;
             this.hasBooster = false;
             this.lostGame();
+            this.starCount = 0;
         }
 
         // update background scroll during boostmode
-        if(this.isBoostMode) {
+        if(this.isBoostMode && !this.hasLost) {
             this.ground.autoScroll(0, 750); 
             this.grass.autoScroll(0, 750); 
             this.grass2.autoScroll(0, 750); 
@@ -336,7 +344,6 @@ ZenvaRunner.Game.prototype = {
             var timeString = '0' + ":" + '00';   
             this.timeText.text = timeString; 
         }
-
     },
     addZeros: function(num) {
         if (num < 10) {
@@ -551,7 +558,6 @@ ZenvaRunner.Game.prototype = {
     },
     boosterUse: function() {
         // this.player.body.enable = false;
-        
         this.boostSoundTrack.play();
         this.hasBooster = false; 
         this.isBoostMode = true;
@@ -562,7 +568,7 @@ ZenvaRunner.Game.prototype = {
         xp = this.player.position.x;
         yp = this.player.position.y;
 
-        var fade = this.game.add.sprite(xp,yp, 'fadePlayer');
+        var fade = this.game.add.sprite(xp,yp, this.exp);
         this.fadedPlayer.add(fade);
         fade.scale.setTo(.5);
         fade.animations.add('fade', [0,1,2]); 
@@ -572,14 +578,16 @@ ZenvaRunner.Game.prototype = {
         scoreTween.onComplete.add(function() {
             this.isBoostMode = false;
             fade.animations.stop();
+            fade.destroy();
+            if (!this.hasLost) {
             this.player.reset(xp, yp);
             this.player.angle = 0;
             this.player.body.velocity.x = 0;
-            fade.destroy();
             // this.boosterCount.reset(20,60);
             this.gameMusic.resume();
             // boost.reset(boost.position.x,boost.position.y);
             this.boosterCount.removeAll(); 
+            }
         }, this);
         
     },
@@ -661,7 +669,7 @@ ZenvaRunner.Game.prototype = {
         this.exp.scale.setTo(1.5); 
         this.exp.animations.add('fly', [0,1,2,3,4,5,6]); 
         this.exp.animations.play('fly',8,false); 
-        this.game.add.tween(this.exp).to({y: this.game.height * 1.3}, 1000, Phaser.Easing.Default, true, 0); // to move the explosion vertically (to the bottom) to create the illusion of moving forward       
+        this.game.add.tween(this.exp).to({y: this.game.height * 1.5}, 1000, Phaser.Easing.Default, true, 0); 
     },
     carHit: function (player, car) {
         this.healthPoint = this.healthPoint - 1;
@@ -676,7 +684,7 @@ ZenvaRunner.Game.prototype = {
         this.exp.scale.setTo(1.4); // resize explosion
         this.exp.animations.add('fly', [0,1,2,3,4,5,6]); 
         this.exp.animations.play('fly',8,false); 
-        this.game.add.tween(this.exp).to({y: this.game.height * 1.3}, 1000, Phaser.Easing.Default, true, 0); // to move the explosion vertically (to the bottom) to create the illusion of moving forward       
+        this.game.add.tween(this.exp).to({y: this.game.height * 1.5}, 1000, Phaser.Easing.Default, true, 0); 
     },
     vanHit: function (player, van) {
         this.healthPoint = this.healthPoint - 5;
@@ -691,7 +699,7 @@ ZenvaRunner.Game.prototype = {
         this.exp.scale.setTo(1.5); 
         this.exp.animations.add('fly', [0,1,2,3,4,5,6]); 
         this.exp.animations.play('fly',8,false); 
-        this.game.add.tween(this.exp).to({y: this.game.height * 1.3}, 1000, Phaser.Easing.Default, true, 0); 
+        this.game.add.tween(this.exp).to({y: this.game.height * 1.5}, 1000, Phaser.Easing.Default, true, 0); 
         
     },
     truckHit: function (player, truck) {
@@ -707,7 +715,7 @@ ZenvaRunner.Game.prototype = {
         this.exp.scale.setTo(1.7); 
         this.exp.animations.add('fly', [0,1,2,3,4,5,6]); 
         this.exp.animations.play('fly',8,false);
-        this.game.add.tween(this.exp).to({y: this.game.height * 1.3}, 1000, Phaser.Easing.Default, true, 0);
+        this.game.add.tween(this.exp).to({y: this.game.height * 1.5}, 1000, Phaser.Easing.Default, true, 0); 
         
     },
     // tinamban style
@@ -752,6 +760,9 @@ ZenvaRunner.Game.prototype = {
         van.kill();
     },
     lostGame: function() {
+        this.lostSound.play();
+
+        this.game.global.star = this.game.global.star + this.starCount;
         this.booster.kill();
         this.police.kill();
         this.player.kill();

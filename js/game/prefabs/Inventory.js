@@ -27,13 +27,13 @@ Inventory.prototype.show = function(){
     this.game.add.bitmapText(this.game.world.centerX - 25,50,'minecraftia','My Cars',24);
     this.back = this.game.add.button(10,10,'back', this.restart);
 
-    this.car1 = this.game.add.sprite(this.game.width/2 - 100,this.game.height*0.25,'player');
+    this.car1 = this.game.add.sprite(this.game.width/2 - 100,this.game.height*0.25,'black');
     this.car1.scale.setTo(.5);
     this.car1.animations.add('carSmoke', [0,1,2,1,0]);
     this.car1.animations.play('carSmoke',8,true);
     this.twc = this.game.add.tween(this.car1).from({x: this.car1.position.x, y: this.car1.position.y - 1}, 200, Phaser.Easing.Bounce.In, true);
     this.twc.loop();
-    this.use1 = this.game.add.button(this.game.width/2 - 111,(this.game.height*0.25) + this.car1.height,'useCar');
+    this.use1 = this.game.add.button(this.game.width/2 - 111,(this.game.height*0.25) + this.car1.height,'useCar',this.useCar1);
     this.use1.scale.setTo(.5);
 
     this.car2 = this.game.add.sprite(this.game.width/2 + 100,this.game.height*0.25,'taxi');
@@ -42,14 +42,30 @@ Inventory.prototype.show = function(){
     this.car2.animations.play('carSmoke',8,true);
     this.twc2 = this.game.add.tween(this.car1).from({x: this.car1.position.x, y: this.car1.position.y - 1}, 200, Phaser.Easing.Bounce.In, true);
     this.twc2.loop();
-    this.use2 = this.game.add.button(this.game.width/2 + 91,(this.game.height*0.25) + this.car1.height,'useCar');
+    this.use2 = this.game.add.button(this.game.width/2 + 91,(this.game.height*0.25) + this.car1.height,'useCar', this.useCar2);
     this.use2.scale.setTo(.5);
 
+    // star earned
+    this.star = this.game.add.bitmapText(this.game.width/2 + 300,50,'minecraftia','Stars earned: ' + this.game.global.star,24);
+
     this.game.add.tween(this).from({x:this.game.width}, 1000, Phaser.Easing.Bounce.Out, true);
+
+    this.curCar = this.game.add.bitmapText(this.game.world.centerX - 160,this.game.height/2 + 100,'minecraftia','Current car in use: ' + this.game.global.carKey,24);
 
     //restart the game
     // this.game.input.onDown.addOnce(this.restart, this);
 };
 Inventory.prototype.restart = function(){
     this.game.state.start('MainMenu', true, false);
+};
+Inventory.prototype.useCar1 = function() {
+    this.game.global.carKey = 'black';
+    // this.curCar = this.game.add.bitmapText(this.game.width/2 - 111,(this.game.height*0.5),'minecraftia','Car Used',24);
+    // this.curCar2.visible = false;
+    
+};
+Inventory.prototype.useCar2 = function() {
+    this.game.global.carKey = 'taxi';
+    // this.curCar2 = this.game.add.bitmapText(this.game.width/2 + 91,(this.game.height*0.5),'minecraftia','Car Used',24);
+   
 };

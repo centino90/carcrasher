@@ -1,5 +1,10 @@
 var game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.AUTO,'');
 
+game.global = {
+    star: 0,
+    carKey: 'black', //default car
+}
+
 game.state.add('Boot', ZenvaRunner.Boot);
 game.state.add('Preloader', ZenvaRunner.Preload);
 game.state.add('MainMenu', ZenvaRunner.MainMenu);

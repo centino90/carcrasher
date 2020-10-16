@@ -10,8 +10,9 @@ ZenvaRunner.Preload.prototype = {
 
         this.load.setPreloadSprite(this.preloadBar);
 
-        this.load.image('ground', 'assets/images/ground.png');
+        this.load.image('ground', 'assets/images/road.png');
         this.load.image('grass', 'assets/images/grass.png');
+        this.load.image('sea', 'assets/images/sea.png');
         this.load.image('healthHigh', 'assets/images/healthFull.png');
         this.load.image('healthLow', 'assets/images/healthLow.png');
         this.load.image('sideroad', 'assets/images/sideroad.png');
@@ -26,7 +27,7 @@ ZenvaRunner.Preload.prototype = {
         // this.load.image('healthBox', 'assets/images/healthBox.png');
 
 
-        this.load.spritesheet('player', 'assets/images/player.png', 129.2, 316, 3);
+        this.load.spritesheet('black', 'assets/images/player.png', 129.2, 316, 3);
         this.load.spritesheet('taxi', 'assets/images/taxi.png', 121.5, 325, 3);
         this.load.spritesheet('police', 'assets/images/police.png', 119, 291, 3);
         this.load.spritesheet('truck', 'assets/images/truck.png', 159.5, 498, 3);
@@ -37,7 +38,7 @@ ZenvaRunner.Preload.prototype = {
         this.load.spritesheet('explode', 'assets/images/explode.png', 57.3, 52, 6);
         this.load.spritesheet('healthBox', 'assets/images/healthBox.png',69,49, 0);
         this.load.spritesheet('fadeTaxi', 'assets/images/fadeTaxi.png',121.5, 325, 3);
-        this.load.spritesheet('fadePlayer', 'assets/images/fadePlayer.png',129.2, 316, 3);
+        this.load.spritesheet('fadeBlack', 'assets/images/fadePlayer.png',129.2, 316, 3);
         this.load.spritesheet('beachside', 'assets/images/beachside.png',450, 5000, 4);        
         this.load.spritesheet('star', 'assets/images/star.png',66, 80, 3);     
         this.load.spritesheet('carcrasher', 'assets/images/carlogo.png',763, 312, 5);   
