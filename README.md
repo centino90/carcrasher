@@ -25,34 +25,45 @@ The main character of this game is a car enthusiast and also a modern daredevil.
 
 * **Black Car** - 1 of 2 default cars in your inventory
 
-<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/player.png" width="150" height="220"/>
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/player.png" width="180" height="200"/>
 
 * **Taxi** - 1 of 2 default cars in your inventory
 
-<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/taxi.png" width="150" height="220"/>
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/taxi.png" width="180" height="200"/>
 
 * **Red Car** - Can be purchased in shop. This car model and four (4) others is also used as a civillian car.
 
-<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/car.png" width="150" height="220"/>
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/carFriendly.png" width="180" height="200"/>
 
 * **Police Car** - Can be purchased in shop. This car model and four (4) others is also used as a civillian car.
 
-<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/police.png" width="150" height="220"/>
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/policeFriendly.png" width="180" height="200"/>
 
 * **Van** - Can be purchased in shop. This car model and four (4) others is also used as a civillian car.
 
-<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/van.png" width="150" height="220"/>
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/vanFriendly.png" width="180" height="200"/>
 
 * **Truck** - Can be purchased in shop. This car model and four (4) others is also used as a civillian car.
 
-<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/truck.png" width="150" height="220"/>
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/truckFriendly.png" width="180" height="220"/>
 
 #### Consumables
 
 * **Hourglass** - It increases your time by one (1) which increases your survivability. 
+
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/hourglass.png" width="180" height="220"/>
+
 * **Healthbox** - It increases your health by one hundred percent (100%) which greatly increases your survivability.
+
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/healthBox.png" width="180" height="220"/>
+
 * **Booster** - It increases your speed while safe from collision.
+
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/booster.png" width="180" height="220"/>
+
 * **Star** - It serves as the currency in game to purchase new cars.
+
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/star.png" width="180" height="220"/>
 
 ### Story
 
