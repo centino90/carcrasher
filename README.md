@@ -218,6 +218,10 @@ wallCrash  at https://github.com/centino90/carcrasher/blob/master/assets/audio/w
 ### Game States and Scenes
 This is where the in-game snaps of each game states (scenes) will be presented. In this section, you will see and understand a few of my reasonings and choices behind the designs and aesthetics of this game.
 
+<img src="https://drive.google.com/uc?export=view&id=1lfDL5RpaKqC4iRYEij4M3roSP4weLCWv" width="600" height="300"/>
+
+<img src="https://drive.google.com/uc?export=view&id=16QR2DvnuN0DYfvJBohyxyiCKKLgG5aIz" width="600" height="300"/>
+
 <img src="https://drive.google.com/uc?export=view&id=1LSIeb6L98uJarIUshreZp3xb8tFEGGHw" width="600" height="300"/>
 
 <img src="https://drive.google.com/uc?export=view&id=1e59QV8dxsz8mMAPvZWljqwpop5lJh09n" width="600" height="300"/>
