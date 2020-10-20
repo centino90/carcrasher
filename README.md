@@ -59,7 +59,43 @@ This game is set on three (3) different highways which have different color them
 **The Midnight** - which depicts a dark evening of a highway that has has post towers and forest on the left corner and houses on the right.
 
   ![Alt Text](assets/images/theMidnightMap.png)
+  
+### Graphics
 
+#### Backgrounds - are what used in each game state to cover the default background and give additional aesthetic to the game. Aside from the game state backgrounds, the game also has in-game backgrounds which are divided in four (4) parts: Left ground, Right ground, Middle ground, and Extension tile.
+
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/mountain.png" width="800" height="400"/>
+  
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/inventory-bg.png" width="800" height="400"/>
+  
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/shop-bg.png" width="800" height="400"/>
+  
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/selectMap.png" width="800" height="400"/>
+  
+* Left ground
+
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/sideroad.png" width="200" height="500"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/snowCity.png" width="200" height="500"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/nightLeft.png" width="200" height="500"/>
+
+* Right Ground
+
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/beachside.png" width="200" height="500"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/snowSide.png" width="200" height="500"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/nightRight.png" width="200" height="500"/>
+
+* Middle Ground
+
+  ![Alt Text](assets/images/road.png)
+  ![Alt Text](assets/images/snowRoad.png)
+  ![Alt Text](assets/images/nightRoad.png)
+  
+* Extension Tile
+
+  ![Alt Text](assets/images/sea.png)
+  ![Alt Text](assets/images/snowTile.png)
+  ![Alt Text](assets/images/grass.png)
+  ![Alt Text](assets/images/nightTile.png)
 
 
 
