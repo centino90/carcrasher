@@ -1,15 +1,10 @@
-var ZenvaRunner = function() {};
+var CarCrasher = function() {};
 
-ZenvaRunner.Boot = function() {};
+CarCrasher.Boot = function() {};
 
-ZenvaRunner.Boot.prototype = {
+CarCrasher.Boot.prototype = {
     preload: function() {
         this.load.image('preloadbar', 'assets/images/loadbar.png');
-        this.load.spritesheet('carcrasher', 'assets/images/carlogo.png',763, 312, 5);   
-        this.load.spritesheet('tap', 'assets/images/taptoplay.png',300, 200, 5);   
-        this.load.image('mountain', 'assets/images/mountain.png');
-        this.load.audio('boostSoundtrack', 'assets/audio/booster-soundtrack.mp3');
-        
     },
     create: function() {
         this.game.stage.backgroundColor = '#fff';

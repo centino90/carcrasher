@@ -1,8 +1,8 @@
-ZenvaRunner.Preload = function() {
+CarCrasher.Preload = function() {
     this.ready = false;
 };
 
-ZenvaRunner.Preload.prototype = {
+CarCrasher.Preload.prototype = {
     preload: function() {
 
         this.preloadBar = this.add.sprite(this.game.world.centerX, this.game.world.centerY + 128, 'preloadbar');
@@ -23,12 +23,44 @@ ZenvaRunner.Preload.prototype = {
         this.load.image('back', 'assets/images/back.png');
         this.load.image('mechanics', 'assets/images/mechanics.png');
         this.load.image('again', 'assets/images/playAgain.png');
+        this.load.image('buy', 'assets/images/buy.png');
+        this.load.image('inventoryBg', 'assets/images/inventory-bg.png');
+        this.load.image('shopBg', 'assets/images/shop-bg.png');
+        this.load.image('snowLeft', 'assets/images/snowCity.png');
+        this.load.image('snowRight', 'assets/images/snowSide.png');
+        this.load.image('snowTile', 'assets/images/snowTile.png');
+        this.load.image('snowRoad', 'assets/images/snowRoad.png');
+        this.load.image('selectMap', 'assets/images/selectMap.png');
+        this.load.image('snowMap', 'assets/images/theSnowyMountainMap.png');
+        this.load.image('beachMap', 'assets/images/theBeachMap.png');
+        this.load.image('selectBtn', 'assets/images/selectBtn.png');
+        this.load.image('startGame', 'assets/images/startGame.png');
+        this.load.image('nightLeft', 'assets/images/nightLeft.png');
+        this.load.image('nightRight', 'assets/images/nightRight.png');
+        this.load.image('nightRoad', 'assets/images/nightRoad.png');
+        this.load.image('nightTile', 'assets/images/nightTile.png');
+        this.load.image('midnight', 'assets/images/theMidnightMap.png');
         
         // this.load.image('healthBox', 'assets/images/healthBox.png');
 
-
+        // player cars
         this.load.spritesheet('black', 'assets/images/player.png', 129.2, 316, 3);
         this.load.spritesheet('taxi', 'assets/images/taxi.png', 121.5, 325, 3);
+        this.load.spritesheet('policeF', 'assets/images/policeFriendly.png', 120.5, 293, 3);
+        this.load.spritesheet('carF', 'assets/images/carFriendly.png', 130.2, 292, 3);
+        this.load.spritesheet('vanF', 'assets/images/vanFriendly.png', 139.6, 319, 3);
+        this.load.spritesheet('truckF', 'assets/images/truckFriendly.png', 159.5, 498, 3);
+       
+        // faded player cars
+        this.load.spritesheet('fadeTaxi', 'assets/images/fadeTaxi.png',121.5, 325, 3);
+        this.load.spritesheet('fadeBlack', 'assets/images/fadePlayer.png',129.2, 316, 3);
+        this.load.spritesheet('fadePolice', 'assets/images/policeFriendlyFade.png', 120.5, 293, 3);
+        this.load.spritesheet('fadeCar', 'assets/images/carFriendlyFade.png', 132.5, 292, 3);
+        this.load.spritesheet('fadeVan', 'assets/images/vanFriendlyFade.png', 140, 319, 3);
+        this.load.spritesheet('fadeTruck', 'assets/images/truckFriendlyFade.png', 159.5, 498, 3);
+
+
+        // others
         this.load.spritesheet('police', 'assets/images/police.png', 119, 291, 3);
         this.load.spritesheet('truck', 'assets/images/truck.png', 159.5, 498, 3);
         this.load.spritesheet('van', 'assets/images/van.png', 139.6, 319, 3);
@@ -37,8 +69,6 @@ ZenvaRunner.Preload.prototype = {
         this.load.spritesheet('hourglass', 'assets/images/hourglass.png', 31, 42, 5);
         this.load.spritesheet('explode', 'assets/images/explode.png', 57.3, 52, 6);
         this.load.spritesheet('healthBox', 'assets/images/healthBox.png',69,49, 0);
-        this.load.spritesheet('fadeTaxi', 'assets/images/fadeTaxi.png',121.5, 325, 3);
-        this.load.spritesheet('fadeBlack', 'assets/images/fadePlayer.png',129.2, 316, 3);
         this.load.spritesheet('beachside', 'assets/images/beachside.png',450, 5000, 4);        
         this.load.spritesheet('star', 'assets/images/star.png',66, 80, 3);     
         this.load.spritesheet('carcrasher', 'assets/images/carlogo.png',763, 312, 5);   
@@ -58,6 +88,8 @@ ZenvaRunner.Preload.prototype = {
         this.load.audio('wallCrash', 'assets/audio/wall-crash.mp3');
         this.load.audio('nitro', 'assets/audio/nitro.mp3');
         this.load.audio('noNitro', 'assets/audio/noNitro.mp3');
+        this.load.audio('noCash', 'assets/audio/unsuccessfulPurchase.mp3');
+        this.load.audio('hasCash', 'assets/audio/successfulPurchase.mp3');
 
 
 

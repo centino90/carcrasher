@@ -1,15 +1,15 @@
-ZenvaRunner.Game = function() {
+CarCrasher.Game = function() {
 
-    this.boosterRate = 1500; //generate booster every 1000ms
+    this.boosterRate = 15000; //generate booster every 1000ms
     this.boosterTimer = 0; //create a booster every game loop
 
     this.healthBoxRate = 22000;
     this.healthBoxTimer = 0;
 
-    this.timePointRate = 3500;
+    this.timePointRate = 6000;
     this.timePointTimer = 0;
 
-    this.starRate = 3500;
+    this.starRate = 5000;
     this.starTimer = 0;
 
     this.policeRate = 2500;
@@ -32,28 +32,57 @@ ZenvaRunner.Game = function() {
 
     this.hasLost = false;
 
+    this.leftSide = '';
+    this.rightSide = '';
+    this.road = '';
+    this.leftTile = '';
+    this.rightTile = '';
+
     // this.dynamicScroll = 350;
 };
 
-ZenvaRunner.Game.prototype = {
+CarCrasher.Game.prototype = {
     create: function() {
         // Moving Background: our asset key for this are 'ground' 'grass', and grass2
-        this.ground = this.game.add.tileSprite(this.game.width/2, 0, 692,this.game.height, 'ground');
+
+        if(this.game.global.bg == 'beach') {
+            this.leftSide = 'sideroad';
+            this.rightSide = 'beachside';
+            this.road = 'ground';
+            this.leftTile = 'grass';
+            this.rightTile = 'sea';
+        }
+        else if(this.game.global.bg == 'snow') {
+            this.leftSide = 'snowLeft';
+            this.rightSide = 'snowRight';
+            this.road = 'snowRoad';
+            this.leftTile = 'snowTile';
+            this.rightTile = 'snowTile';
+        }
+        else if(this.game.global.bg == 'midnight') {
+            this.leftSide = 'nightLeft';
+            this.rightSide = 'nightRight';
+            this.road = 'nightRoad';
+            this.leftTile = 'nightTile';
+            this.rightTile = 'nightTile';
+        }
+
+        this.ground = this.game.add.tileSprite(this.game.width/2, 0, 692,this.game.height, this.road);
         this.ground.autoScroll(0, 350); 
         this.ground.anchor.setTo(.5,0);
          
-        this.grass = this.game.add.tileSprite(this.game.width/2 - this.ground.width * 1.5,0,this.ground.width*2,this.game.height,'grass');
+        this.grass = this.game.add.tileSprite(this.game.width/2 - this.ground.width * 1.5,0,this.ground.width*2,this.game.height,this.leftTile);
         this.grass.autoScroll(0,350); //this will scroll the backround forward creating the illusion of the player moving forward
         this.grass.anchor.setTo(.5,0);
 
-        this.sideroad = this.game.add.tileSprite(this.game.width/2 - this.ground.width * 1.15,0,this.ground.width*.65,this.game.height,'sideroad');
+        this.sideroad = this.game.add.tileSprite(this.game.width/2 - this.ground.width * 1.15,0,this.ground.width*.65,this.game.height,this.leftSide);
         this.sideroad.autoScroll(0,350); //this will scroll the backround forward creating the illusion of the player moving forward
         
-        this.grass2 = this.game.add.tileSprite(this.game.width/2 + this.ground.width * 1.5,0,this.ground.width*2,this.game.height,'sea');
+        this.grass2 = this.game.add.tileSprite(this.game.width/2 + this.ground.width * 1.5,0,this.ground.width*2,this.game.height,this.rightTile);
         this.grass2.autoScroll(0,350); //this will move the backround to the left
         this.grass2.anchor.setTo(.5,0);
 
-        this.beachside = this.game.add.tileSprite(this.game.width/2 + this.ground.width * .505,0,this.ground.width*.65,this.game.height,'beachside');
+        this.beachside = this.game.add.tileSprite(this.game.width/2 + this.ground.width * .505,0,this.ground.width*.65,this.game.height,this.rightSide);
         this.beachside.autoScroll(0,350); //this will scroll the backround forward creating the illusion of the player moving forward
         this.beachside.animations.add('fly', [0,1,2,3,2,1,0]); //[0,1,2,3] are image frames found in our asset player,
         this.beachside.animations.play('fly',1,true); //this line will play our animation in 8fps and will loop th animaton(true)
@@ -145,6 +174,8 @@ ZenvaRunner.Game.prototype = {
         this.left = this.input.keyboard.addKey(Phaser.Keyboard.A);
         this.right = this.input.keyboard.addKey(Phaser.Keyboard.D);
         this.useBooster = this.input.keyboard.addKey(Phaser.Keyboard.G);
+
+        
     },
     update: function() {
         this.exp = ''
@@ -153,6 +184,18 @@ ZenvaRunner.Game.prototype = {
         }
         else if(this.game.global.carKey == 'taxi') {
             this.exp = 'fadeTaxi';
+        }
+        else if(this.game.global.carKey == 'vanF') {
+            this.exp = 'fadeVan';
+        }
+        else if(this.game.global.carKey == 'carF') {
+            this.exp = 'fadeCar';
+        }
+        else if(this.game.global.carKey == 'policeF') {
+            this.exp = 'fadePolice';
+        }
+        else if(this.game.global.carKey == 'truckF') {
+            this.exp = 'fadeTruck';
         }
         
         //lost case
