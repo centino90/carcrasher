@@ -20,6 +20,7 @@ This game design document describes the details for a browser 2D survival game. 
 A total of ten (10) characters are present in this game. Six (6) are different types of **Cars**, while the remaining four (4) are **Consumables** in game.
 
 The main character of this game is a car enthusiast and also a modern daredevil. He alernates between different cars always improving his experience. He accepts any challenge that are thrown at him even if it cost his life. A healthy reminder though, the main character is immortal and can revert back everytime he fails to beat his previous record.
+
 #### Cars
 
 * **Black Car** - 1 of 2 default cars in your inventory
@@ -90,9 +91,21 @@ Free to play on open market websites such as Y8.com and itch.io.
 
 ### Fonts
 
-<img src="https://github.com/centino90/carcrasher/blob/master/assets/fonts/minecraftia.png" width="300" height="150"/>
+ ![Alt Text](assets/fonts/minecraftia/minecraftia.png)
 
 ### Audio
+boosterSoundtrack at https://github.com/centino90/carcrasher/blob/master/assets/audio/booster-soundtrack.mp3
+backgroundSoundtrack at https://github.com/centino90/carcrasher/blob/master/assets/audio/background-music.mp3
+carExplosion at https://github.com/centino90/carcrasher/blob/master/assets/audio/car-explosion.mp3
+carManuever at https://github.com/centino90/carcrasher/blob/master/assets/audio/car-manuever.mp3
+lost at https://github.com/centino90/carcrasher/blob/master/assets/audio/lost-captured.mp3
+nitro at https://github.com/centino90/carcrasher/blob/master/assets/audio/nitro.mp3
+noNitro at https://github.com/centino90/carcrasher/blob/master/assets/audio/noNitro.mp3
+pickupBoost at https://github.com/centino90/carcrasher/blob/master/assets/audio/pickup-boost.mp3
+startEngine at https://github.com/centino90/carcrasher/blob/master/assets/audio/start-engine.mp3
+successfulPurchase at https://github.com/centino90/carcrasher/blob/master/assets/audio/successfulPurchase.mp3
+unsuccessfulPurchase at https://github.com/centino90/carcrasher/blob/master/assets/audio/successfulPurchase.mp3
+wallCrash  at https://github.com/centino90/carcrasher/blob/master/assets/audio/wall-crash.mp3
 
 ### Graphics
 
