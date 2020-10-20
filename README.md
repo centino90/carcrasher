@@ -51,11 +51,11 @@ The main character of this game is a car enthusiast and also a modern daredevil.
 
 * **Hourglass** - It increases your time by one (1) which increases your survivability. 
 
-<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/hourglass.png" width="180" height="220"/>
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/hourglass.png" width="180" height="150"/>
 
 * **Healthbox** - It increases your health by one hundred percent (100%) which greatly increases your survivability.
 
-<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/healthBox.png" width="180" height="220"/>
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/healthBox.png" width="120" height="140"/>
 
 * **Booster** - It increases your speed while safe from collision.
 
@@ -63,7 +63,7 @@ The main character of this game is a car enthusiast and also a modern daredevil.
 
 * **Star** - It serves as the currency in game to purchase new cars.
 
-<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/star.png" width="180" height="220"/>
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/star.png" width="180" height="170"/>
 
 ### Story
 
