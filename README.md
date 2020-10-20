@@ -62,15 +62,16 @@ This game is set on three (3) different highways which have different color them
   
 ### Graphics
 
-#### Backgrounds - are what used in each game state to cover the default background and give additional aesthetic to the game. Aside from the game state backgrounds, the game also has in-game backgrounds which are divided in four (4) parts: Left ground, Right ground, Middle ground, and Extension tile.
+#### Backgrounds
+  - are what used in each game state to cover the default background and give additional aesthetic to the game. Aside from the game state backgrounds, the game also has in-game    backgrounds which are divided in four (4) parts: Left ground, Right ground, Middle ground, and Extension tile that are mold together to form a single scene.
 
-  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/mountain.png" width="800" height="400"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/mountain.png" width="600" height="300"/>
   
-  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/inventory-bg.png" width="800" height="400"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/inventory-bg.png" width="600" height="300"/>
   
-  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/shop-bg.png" width="800" height="400"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/shop-bg.png" width="600" height="300"/>
   
-  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/selectMap.png" width="800" height="400"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/selectMap.png" width="600" height="300"/>
   
 * Left ground
 
@@ -96,6 +97,38 @@ This game is set on three (3) different highways which have different color them
   ![Alt Text](assets/images/snowTile.png)
   ![Alt Text](assets/images/grass.png)
   ![Alt Text](assets/images/nightTile.png)
+  
+#### Others
+
+* Buttons
+
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/useCar.png" width="150" height="100"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/startGame.png" width="150" height="100"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/selectBtn.png" width="150" height="100"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/playAgain.png" width="150" height="100"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/taptoplay.png" width="400" height="100"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/shop.png" width="150" height="100"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/mechanics.png" width="150" height="100"/>
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/inventory.png" width="150 height="100"/>
+  
+* Health bar
+
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/healthFull.png" width="300" height="50"/>
+  
+* Booster status
+
+  Booster Sprite frame 0
+  
+* Explosion
+
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/explode.png" width="300" height="200"/>
+  
+* Preload Bar
+
+  <img src="https://github.com/centino90/carcrasher/blob/master/assets/images/loadbar.png" width="300" height="50"/>
+
+### Game States and Scenes
+This is where the in-game snaps of each game states (scenes) will be presented. In this section, you will see and understand a few of my reasonings and choices behind the designs and aesthetics of this game.
 
 
 
