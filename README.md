@@ -24,11 +24,28 @@ The main character of this game is a car enthusiast and also a modern daredevil.
 #### Cars
 
 * **Black Car** - 1 of 2 default cars in your inventory
+
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/player.png" width="150" height="220"/>
+
 * **Taxi** - 1 of 2 default cars in your inventory
+
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/taxi.png" width="150" height="220"/>
+
 * **Red Car** - Can be purchased in shop. This car model and four (4) others is also used as a civillian car.
+
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/car.png" width="150" height="220"/>
+
 * **Police Car** - Can be purchased in shop. This car model and four (4) others is also used as a civillian car.
+
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/police.png" width="150" height="220"/>
+
 * **Van** - Can be purchased in shop. This car model and four (4) others is also used as a civillian car.
+
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/van.png" width="150" height="220"/>
+
 * **Truck** - Can be purchased in shop. This car model and four (4) others is also used as a civillian car.
+
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/truck.png" width="150" height="220"/>
 
 #### Consumables
 
@@ -70,13 +87,15 @@ This game is set on three (3) different highways which have different color them
   ![Alt Text](assets/images/theMidnightMap.png)
 
 ### Gameplay and Controls
+
   * Goals: Reach high survivability (higher than your previous records) and Buy all cars.
   * User Skills: evasion skills, resource control, fast reaction, and fast eye detection.
   * Items and power-ups: This game has a total of four (4) consumables items: 1. Booster - respawns every 15 seconds which allows you to avoid collision while your speed is increased. 2. Healthbox - respawns every 25 seconds which increases your health to one hundred percent (100%) if hitted. 3. Hourglass - respawns 5 instances every 6 seconds which increases your timer to allow you to survive longer. 4. Star - respawns every 5 seconds which serve as your money in game. 
   * Progression and Challenge: The game mechanics never changes, but the terrain does. There are three (3) maps which you could choose but has similar difficulties.
   * Losing: There are 2 lost cases in this game. First is when your HP goes to 0. Second is when you run out of time. The timer starts at 1 minute and decrements every second.
 
-
+  **The users can either tap the keyboard keys A and D or the arrow keys Left and Right to move left and right. Tap the G keyboard key to activate booster if you found one.**
+  
 ### Technical Description
 
   This game is very compatible with desktop set-ups and is recommended to be played there. This game is also playable in mobile devices but is not recommended.
@@ -94,17 +113,29 @@ Free to play on open market websites such as Y8.com and itch.io.
  ![Alt Text](assets/fonts/minecraftia/minecraftia.png)
 
 ### Audio
+
 boosterSoundtrack at https://github.com/centino90/carcrasher/blob/master/assets/audio/booster-soundtrack.mp3
+
 backgroundSoundtrack at https://github.com/centino90/carcrasher/blob/master/assets/audio/background-music.mp3
+
 carExplosion at https://github.com/centino90/carcrasher/blob/master/assets/audio/car-explosion.mp3
+
 carManuever at https://github.com/centino90/carcrasher/blob/master/assets/audio/car-manuever.mp3
+
 lost at https://github.com/centino90/carcrasher/blob/master/assets/audio/lost-captured.mp3
+
 nitro at https://github.com/centino90/carcrasher/blob/master/assets/audio/nitro.mp3
+
 noNitro at https://github.com/centino90/carcrasher/blob/master/assets/audio/noNitro.mp3
+
 pickupBoost at https://github.com/centino90/carcrasher/blob/master/assets/audio/pickup-boost.mp3
+
 startEngine at https://github.com/centino90/carcrasher/blob/master/assets/audio/start-engine.mp3
+
 successfulPurchase at https://github.com/centino90/carcrasher/blob/master/assets/audio/successfulPurchase.mp3
+
 unsuccessfulPurchase at https://github.com/centino90/carcrasher/blob/master/assets/audio/successfulPurchase.mp3
+
 wallCrash  at https://github.com/centino90/carcrasher/blob/master/assets/audio/wall-crash.mp3
 
 ### Graphics
