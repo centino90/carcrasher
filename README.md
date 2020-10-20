@@ -11,8 +11,7 @@ Date of submission: October 20, 2020
 
 ### Project Description
 
-This game design document describes the details for a browser 2D survival game. This documentation aims to describe and explain the development of the game from asset development to its implementation in game. Certain challenges that the developer had experienced while developing this game and what solutions they provide are also presented to broaden the scope of explanation that this documentation is trying to assert.
-
+This game design document describes the details for a browser 2D survival game. This documentation aims to describe and explain the development of the game from asset development to its implementation in game.
 
 
 ### Characters
