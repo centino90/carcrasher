@@ -19,9 +19,8 @@ This game design document describes the details for a browser 2D survival game. 
 
 A total of ten (10) characters are present in this game. Six (6) are different types of **Cars**, while the remaining four (4) are **Consumables** in game.
 
-#### Cars
-
 The main character of this game is a car enthusiast and also a modern daredevil. He alernates between different cars always improving his experience. He accepts any challenge that are thrown at him even if it cost his life. A healthy reminder though, the main character is immortal and can revert back everytime he fails to beat his previous record.
+#### Cars
 
 * **Black Car** - 1 of 2 default cars in your inventory
 * **Taxi** - 1 of 2 default cars in your inventory
@@ -42,6 +41,27 @@ The main character of this game is a car enthusiast and also a modern daredevil.
 In a seemingly peaceful day, one guy who calls himself a "daredevil" goes on a quest of beating his previous records by improving his survival rate on different highways. In the same day, the daredevil encountered problems on his quest. He realized that he is in fact running on a one way lane, and his only chance of survival is to avoid the cars that are moving towards him.
 
 ### Theme
+
+It is depicting an intense survival, car chase vibe. The use of color in this game is intensified and is approriately used in accordance to what setting the character is in. Every element of this game harmonizes in creating an atmosphere that is intense and appropriate for survival games. It has also replicated the nuances of real highway events and car properties. This game should not show gory designs but instead designs that are somewhat similar to reality but have game-like experience.
+
+### Setting
+
+This game is set on three (3) different highways which have different color theme.
+
+**The beach** - which depicts a sunday morning setting of a highway that has houses on the left corner and a beach on the right.
+
+  ![Alt Text](assets/images/theBeachMap.png)
+  
+**The Snowy Mountain** - which depicts a cold winter noon of a highway that has houses on the left corner and a forest on the right.
+  
+  ![Alt Text](assets/images/theSnowyMountainMap.png)
+  
+**The Midnight** - which depicts a dark evening of a highway that has has post towers and forest on the left corner and houses on the right.
+
+  ![Alt Text](assets/images/theMidnightMap.png)
+
+
+
 
 
 Gameplay
