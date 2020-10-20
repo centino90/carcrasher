@@ -42,7 +42,15 @@ In a seemingly peaceful day, one guy who calls himself a "daredevil" goes on a q
 
 ### Theme
 
-It is depicting an intense survival, car chase vibe. The use of color in this game is intensified and is approriately used in accordance to what setting the character is in. Every element of this game harmonizes in creating an atmosphere that is intense and appropriate for survival games. It has also replicated the nuances of real highway events and car properties. This game should not show gory designs but instead designs that are somewhat similar to reality but have game-like experience.
+This game depicts an intense survival, car chase vibe. The use of color in this game is intensified and is approriately used in accordance to what setting the character is in. Every element of this game harmonizes in creating an atmosphere that is intense and appropriate for survival games. It has also replicated the nuances of real highway events and car properties. This game should not show gory designs but instead designs that are somewhat similar to reality but have game-like experience.
+
+### Art Style
+
+This is a 2D isometric game, with high quality 2D sprites. Everything should be very colorful and feel alive, with highly animated scenarios and layered backgrounds.
+
+### Music and Sounds
+
+The music should stimulate an intense, almost 'car chase' sort of vibe. Every feature in the game should be accompanied with clear and stimulating sound elements such as car crash sound effect, explosion, and losing.
 
 ### Setting
 
@@ -59,7 +67,33 @@ This game is set on three (3) different highways which have different color them
 **The Midnight** - which depicts a dark evening of a highway that has has post towers and forest on the left corner and houses on the right.
 
   ![Alt Text](assets/images/theMidnightMap.png)
+
+### Gameplay and Controls
+  * Goals: Reach high survivability (higher than your previous records) and Buy all cars.
+  * User Skills: evasion skills, resource control, fast reaction, and fast eye detection.
+  * Items and power-ups: This game has a total of four (4) consumables items: 1. Booster - respawns every 15 seconds which allows you to avoid collision while your speed is increased. 2. Healthbox - respawns every 25 seconds which increases your health to one hundred percent (100%) if hitted. 3. Hourglass - respawns 5 instances every 6 seconds which increases your timer to allow you to survive longer. 4. Star - respawns every 5 seconds which serve as your money in game. 
+  * Progression and Challenge: The game mechanics never changes, but the terrain does. There are three (3) maps which you could choose but has similar difficulties.
+  * Losing: There are 2 lost cases in this game. First is when your HP goes to 0. Second is when you run out of time. The timer starts at 1 minute and decrements every second.
+
+
+### Technical Description
+
+  This game is very compatible with desktop set-ups and is recommended to be played there. This game is also playable in mobile devices but is not recommended.
   
+### Demographics
+
+Age: 12 to 50 , Sex: Everyone, Casual players mostly 
+
+### Platform and Monetization
+
+Free to play on open market websites such as Y8.com and itch.io.
+
+### Fonts
+
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/fonts/minecraftia.png" width="300" height="150"/>
+
+### Audio
+
 ### Graphics
 
 #### Backgrounds
