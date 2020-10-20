@@ -234,33 +234,7 @@ This is where the in-game snaps of each game states (scenes) will be presented. 
 
 
 
-
-
-
-
-Gameplay
-
-Respawn
-It is respawned in game by five (5) times each instance for every
-
-Audience: Any person of any gender that is between 12 to 50 years old.
-
-Platform & Monetization: Free to play on online markets (desktop and/or mobile)
-
-Project description: Small scale project complete with layered audio and graphics. Built upon the Phaser 2 JS library which served as the game engine for the entire game (e.g. game mechanics, physics, etc.)
-
-Art style: 2d Isometric game based upon vector art (e.g. spritesheets) developed using Adobe Illustrator.
-
-Theme: An action game with a fast pace ‘car chase’ vibe.
-
-Gameplay: Survival 
-
-Game Assets
-
-Backgrounds
-
-Reminder: 
-When the browser is refreshed, all of your stars in the inventory will be reverted back to 0
+//------------------------------ END OF FILE --------------------------------------------------------------------------------//
 
 
 
