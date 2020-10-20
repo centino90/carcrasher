@@ -130,6 +130,19 @@ This game is set on three (3) different highways which have different color them
 ### Game States and Scenes
 This is where the in-game snaps of each game states (scenes) will be presented. In this section, you will see and understand a few of my reasonings and choices behind the designs and aesthetics of this game.
 
+<img src="https://drive.google.com/uc?export=view&id=1LSIeb6L98uJarIUshreZp3xb8tFEGGHw" width="600" height="300"/>
+
+<img src="https://drive.google.com/uc?export=view&id=1e59QV8dxsz8mMAPvZWljqwpop5lJh09n" width="600" height="300"/>
+
+<img src="https://drive.google.com/uc?export=view&id=1hfR8oEYBIH0Y-lzEnsH5ygosGyn5lkkj" width="600" height="300"/>
+
+<img src="https://drive.google.com/uc?export=view&id=1gu-wOKuZE4CkbCMvS3Vlj3N78BbT0PGv" width="600" height="300"/>
+
+<img src="https://drive.google.com/uc?export=view&id=1X8FYTwx82_bKiunua1lMJJKlGjVGjtuf" width="600" height="300"/>
+
+
+
+
 
 
 
