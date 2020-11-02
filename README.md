@@ -1,4 +1,7 @@
 # CarCrasher
+
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/carcrasher-logo.png" width="250" height="180"/>
+
 A quality experience game built in Phaser 2
 
 Developed by: Anthony Jay P. Ansit
