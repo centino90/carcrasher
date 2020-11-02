@@ -7,7 +7,9 @@ Date of submission: October 20, 2020
 
 ## Demo link
 
-https://drive.google.com/file/d/1J3qw9dPtBNry8y09P-C7MozD7san8mDp/view?usp=sharing
+Video demo: https://drive.google.com/file/d/1J3qw9dPtBNry8y09P-C7MozD7san8mDp/view?usp=sharing
+
+Game demo: http://carcrasher.infinityfreeapp.com/
 
 ## Game Development Documentation 
 
