@@ -1,6 +1,6 @@
 # CarCrasher
 
-<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/carcrasher-logo.png" width="250" height="180"/>
+<img src="https://github.com/centino90/carcrasher/blob/master/assets/images/carcrasher-logo.png" width="700" height="250"/>
 
 A quality experience game built in Phaser 2
 
