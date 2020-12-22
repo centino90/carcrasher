@@ -16,7 +16,7 @@ Game demo: http://carcrasher.infinityfreeapp.com/
 
 ## Game Development Documentation 
 
-
+<br />
 
 ### Project Description
 
